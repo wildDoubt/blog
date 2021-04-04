@@ -15,5 +15,3 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
 tags:
 ---
-
-## Some contents

@@ -15,8 +15,7 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - post
 tags:
-  - Tag_name1
-  - Tag_name2
+  - 블로그
 ---
 
 # Hugo로 블로그 만드는 방법

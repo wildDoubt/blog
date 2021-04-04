@@ -4,8 +4,8 @@
   LanguageName = "English"
   weight = 1
 
-[pt]
-  title = "Claridade" # just for the sake of showing this is possible
-  LanguageName = "Português"
+[kr]
+  title = "Clarity" # just for the sake of showing this is possible
+  LanguageName = "한국어"
   weight = 2
   

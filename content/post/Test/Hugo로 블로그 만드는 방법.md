@@ -46,8 +46,9 @@ tags:
 
 ## 3. 테마 적용
 
+- `hugo new site blog` 로 새로운 site를 만든다.
 - https://themes.gohugo.io/ 에서 고른 테마를 submodule로 추가해준다.
-- `config.toml`에 내가 고른 테마의 이름을 `theme = "inkblotty"` 이런 형태로 추가해준다.
+- 테마 안에 exampleSite 폴더 내에 있는 config를 가져온다.
 
 ## 4. 컨텐츠 생성
 
@@ -63,3 +64,4 @@ tags:
 2. https://github.com/tosi29/inkblotty/
 3. https://ialy1595.github.io/post/blog-construct-2/
 4. https://gohugo.io/categories/getting-started
+5. https://zzossig.io/posts/hugo/how_to_use_hugo_theme/

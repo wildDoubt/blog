@@ -1,11 +1,11 @@
 
 [en]
-  title = "Clarity"
+  title = "0101 Blog"
   LanguageName = "English"
   weight = 1
 
 [kr]
-  title = "Clarity" # just for the sake of showing this is possible
+  title = "0101 Blog" # just for the sake of showing this is possible
   LanguageName = "한국어"
   weight = 2
   

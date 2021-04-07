@@ -13,7 +13,7 @@ codeMaxLines: 100 # Override global value for how many lines within a code block
 codeLineNumbers: true # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
 categories:
-  - Technology
+  - Algorithm
 tags:
   - Tag_name1
   - Tag_name2

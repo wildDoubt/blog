@@ -9,7 +9,7 @@ paginate = 10
 theme = "hugo-clarity"
 
 disqusShortname = ""
-
+enableMathNotation = true
 DefaultContentLanguage = "kr"
 # [languages]
 # config/_default/languages.toml

@@ -1,7 +1,7 @@
 ---
-title: "Codeforces 602b" # Title of the blog post.
+title: "Codeforces 602B" # Title of the blog post.
 date: 2021-04-08T19:00:24+09:00 # Date of post creation.
-description: "Codeforces 602b" # Description used for search engine.
+description: "Codeforces 602B" # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
@@ -44,7 +44,19 @@ n개의 정수 데이터가 주어진다.
 
 # 2. 문제 해결방안 구상
 
+dp배열에는 해당 인덱스까지의 보았을 때 조건에 맞는 가장 긴 배열의 길이를 저장한다. 그러면 이전 값을 활용해서 다음 값을 보고 추가할 수 있으면 +1을 하는 방식으로 탐색하면 된다.
 
+문제 조건에 맞는 배열의 시작과 끝을 저장하는 2개의 인덱스를 관리하면서 해당 인덱스에 포함되는 최대값과 최소값을 저장한다. 배열의 끝을 늘려나가면서 즉 하나씩 값을 추가하면서 시작 인덱스를 스킵할 수 있는 조건은 다음과 같다.
+
+1. 추가하려는 값이 배열의 최대값 - 2인 경우
+
+   해당 최대값이 마지막으로 등장한 인덱스 바로 다음이 시작점이 된다.
+
+2. 추가하려는 값이 배열의 최소값 +2인 경우
+
+    해당 최소값이 마지막으로 등장한 인덱스 바로 다음이 시작점이 된다.
+
+위 두 조건 외에 바로 추가할 수 있는 경우와 새로 카운트하는 경우까지 판단해주면 답을 구할 수 있다.
 
 
 # 3. 코드 작성
@@ -128,8 +140,9 @@ int main() {
 }
 ```
 
-
 # 4. 결과 및 분석
+
+`O(n^2)`으로 모든 l, r에 대해서 볼 수도 있지만 이 경우에는 시간 초과가 발생할 수 있기 때문에 투 포인터 알고리즘을 사용해야 한다. 
 
 
 # 5. 참고 자료

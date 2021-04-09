@@ -2,7 +2,7 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://wilddoubt.github.io/"  # Include trailing slash
 title = "0101 Blog"
-author = "Jane Doe"
+author = "Wonyeong Choi"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 # canonifyurls = true
 paginate = 10
@@ -11,6 +11,13 @@ theme = "hugo-clarity"
 disqusShortname = ""
 enableMathNotation = true
 DefaultContentLanguage = "kr"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 # [languages]
 # config/_default/languages.toml
 

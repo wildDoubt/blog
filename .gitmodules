@@ -2,4 +2,5 @@
 	path = themes/hugo-clarity
 	url = https://github.com/wildDoubt/hugo-clarity.git
 [submodule "public"]
+	path = public
 	url = https://github.com/wildDoubt/wildDoubt.github.io

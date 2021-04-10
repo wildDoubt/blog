@@ -1,7 +1,7 @@
 ---
 title: "Codeforces 607A" # Title of the blog post.
 date: 2021-04-08T19:00:24+09:00 # Date of post creation.
-description: "Codeforces 602A" # Description used for search engine.
+description: "Codeforces 602A 문제풀이" # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
@@ -15,6 +15,7 @@ figurePositionShow: true # Override global value for showing the figure label.
 categories:
   - Algorithm
 tags:
+  - C++
   - dp
 math: true
 # comment: false # Disable comment if false.

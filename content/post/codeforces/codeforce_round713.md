@@ -16,7 +16,6 @@ categories:
   - Algorithm
 tags:
   - codeforces
-  - Tag_name2
 # comment: false # Disable comment if false.
 ---
 

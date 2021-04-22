@@ -18,7 +18,7 @@ tags:
   - codeforces
 # comment: false # Disable comment if false.
 ---
->시험기간이지만 갑자기 꽂혀서 이틀 연속 대회에 참가하게 되었습니다. C번까지 풀어보고 시험이 끝나고 E번까지 다시 풀어보겠습니다.
+> C번까지 풀어보고 시험이 끝나고 E번까지 다시 풀어보겠습니다.
 
 # 1. Review Site
 

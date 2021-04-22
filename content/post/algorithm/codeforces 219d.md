@@ -11,7 +11,7 @@ toc: false # Controls if a table of contents should be generated for first-level
 shareImage: "/images/path/share.png" # Designate a separate image for social media sharing.
 codeMaxLines: 100 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: true # Override global value for showing of line numbers within code block.
-figurePositionShow: true # Override global value for showing the figure label.
+figurePositionShow: false # Override global value for showing the figure label.
 categories:
   - Algorithm
 tags:
@@ -63,12 +63,12 @@ n개의 도시가 있을 때 단방향의 도로가 주어진다. 수도가 될 
 7 3
 ```
 여기서 1을 루트로 잡고 트리를 그려보면
-![img](/static/images/codeforces_219d_img.png)
+![](/images/codeforces_219d_img.png)
 위와 같이 나온다.
 
 노드 8을 수도로 잡았을 때 도로를 최소한으로 뒤집는 개수를 구해보자. 위에서 정의한 공식을 사용하면 아래와 같이 바꿀 수 있다. 
 
-![img1](/static/images/codeforces_219d_img1.png)
+![](/images/codeforces_219d_img1.png)
 
 DFS로 각 노드의 level과 해당 노드로 갈 때 몇개의 역방향 도로가 존재하는지 구하고 최종적으로 답을 구할 수 있다.
 

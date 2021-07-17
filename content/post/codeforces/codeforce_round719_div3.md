@@ -1,5 +1,5 @@
 ---
-title: "Codeforce_round719_div3" # Title of the blog post.
+title: "Codeforce round #719 div3" # Title of the blog post.
 date: 2021-05-12T18:00:37+09:00 # Date of post creation.
 description: "Codeforces Round #719 Div3" # Description used for search engine.
 featured: true # Sets if post is a featured post, making appear on the home page side bar.

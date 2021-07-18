@@ -12,7 +12,7 @@ disqusShortname = ""
 enableMathNotation = true
 DefaultContentLanguage = "kr"
 enableRobotsTXT = true
-googleAnalytics: G-E4WPVTXSGQ
+googleAnalytics = "G-E4WPVTXSGQ"
 
 [sitemap]
   changefreq = "monthly"

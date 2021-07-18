@@ -1,4 +1,31 @@
-baseURL = "https://example.com"
-title = "1010's Blog"
-author = "Author"
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseurl = "https://wilddoubt.github.io/"  # Include trailing slash
+title = "0101 Blog"
+author = "Wonyeong Choi"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+# canonifyurls = true
+paginate = 10
 theme = "hugo-clarity"
+
+disqusShortname = ""
+enableMathNotation = true
+DefaultContentLanguage = "kr"
+enableRobotsTXT = true
+googleAnalytics = "G-E4WPVTXSGQ"
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# [languages]
+# config/_default/languages.toml
+
+# [menus]
+# config/_default/menus/menu.xx.toml
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"

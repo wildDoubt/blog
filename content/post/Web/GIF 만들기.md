@@ -72,7 +72,7 @@ GIF_PROJECT
 ### 1. 이후 추가될 컨텐츠를 고려해서 라우팅과 폴더 구조를 깔끔하게 정리할 수 있을까?
 
 App.js는 Header, Content, Footer로 구성되어 있는데 AppContent에서 라우팅을 할 수 있도록 분리시켰다.
-```javascript
+```jsx
 // AppContent.jsx
 ...
 <Switch>

@@ -34,7 +34,7 @@ rewire 설정하는 코드
 
 단순히 `react-app-rewired` 깃허브에 있는 README를 읽고서는 해결할 수 없었을 것 같다. 위에 있는 `config-overrides.js` 코드를 보면 headers를 다시 설정해주는 부분이 있는데 이건 webpack에 대해 잘 알지 않으면 작성할 수 없는 코드이기 때문에 webpack에 대해 공부해야겠다는 생각이 들었다. [여기](https://webpack.js.org/configuration/dev-server/#devserverheaders-)에 devServer의 headers에 대한 정보가 짤막하게 있다.
 
-
+배포할 때는 https://github.com/ffmpegwasm/ffmpegwasm.github.io/blob/main/server/server.js 이 코드를 참고해서 해결하면 된다.
 
 
 ## 요약

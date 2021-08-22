@@ -2,7 +2,7 @@
 title: "README 업데이트 자동화" # Title of the blog post.
 date: 2021-08-06T01:25:18+09:00 # Date of post creation.
 description: "Auto regenerated README.md using github actions." # Description used for search engine.
-featured: true
+featured: false
 draft: false
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main

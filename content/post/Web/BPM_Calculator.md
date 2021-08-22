@@ -2,7 +2,7 @@
 title: "BPM Calculator 제작 과정" # Title of the blog post.
 date: 2021-07-27T10:25:53+09:00 # Date of post creation.
 description: "BPM Calculator 제작 과정" # Description used for search engine.
-featured: true
+featured: false
 draft: true
 toc: false # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main

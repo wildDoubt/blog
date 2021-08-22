@@ -1,0 +1,6 @@
+User-agent: *
+Sitemap: https://wilddoubt.github.io/sitemap.xml
+Disallow: /tags
+Disallow: /categories/
+Disallow: /series/
+Disallow: /archives/
